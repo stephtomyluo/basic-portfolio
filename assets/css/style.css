@@ -8,6 +8,7 @@ nav {
   top: 0;
   width: 100%;
   background-color:#ffffff;
+  z-index: 5;
 }
 
 nav ul {
@@ -118,79 +119,20 @@ footer {
   width: 250px;
 }
 
-#burger {
+.grid-image {
   height: 250px;
   width: 250px;
   position: absolute;
 }
 
-.burgertitle {
+.grid-title {
   position: relative;
   text-align: center;
   top: 150px;
   color: white;
   background-color: #4aaaa5;
   height: 40px;
-}
-
-#drinks {
-  height: 250px;
-  width: 250px;
-  position: absolute;
-}
-
-.drinkstitle {
-  position: relative;
-  top: 150px;
-  text-align: center;  
-  color: white;
-  background-color: #4aaaa5;
-  height: 40px;
-}
-
-#menu {
-  height: 250px;
-  width: 250px;
-  position: absolute;
-}
-
-.menutitle {
-  position: relative;
-  text-align: center;
-  top: 150px;  
-  color: white;
-  background-color: #4aaaa5;
-  height: 40px;
-}
-
-#shootergame {
-  height: 250px;
-  width: 250px;
-  position: absolute;
-}
-
-.shootertitle {
-  position: relative;
-  top: 150px;
-  text-align: center;
-  color: white;
-  background-color: #4aaaa5;
-  height: 40px;
-}
-
-#todolist {
-  height: 250px;
-  width: 250px;
-  position: absolute;
-}
-
-.listtitle {
-  position: relative;
-  top: 150px;
-  text-align: center;
-  color: white;
-  background-color: #4aaaa5;
-  height: 40px;
+  line-height: 40px;
 }
 
 body {
